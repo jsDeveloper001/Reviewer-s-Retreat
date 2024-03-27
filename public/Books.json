@@ -1,0 +1,81 @@
+[
+    {
+      "bookId": "AB123",
+      "bookName": "The Silent Patient",
+      "author": "Alex Michaelides",
+      "thumbnail": "https://i.ibb.co/RSyGs5N/the-silent.jpg",
+      "review": "A gripping psychological thriller that keeps you guessing until the very end. The characters are well-developed and the plot twists are jaw-dropping.",
+      "totalPage": 336,
+      "rating": 4.5,
+      "category": "Thriller",
+      "tags": ["suspense", "psychological"],
+      "publisher": "Celadon Books",
+      "yearOfPublishing": 2019
+    },
+    {
+      "bookId": "CD456",
+      "bookName": "Educated: A Memoir",
+      "author": "Tara Westover",
+      "thumbnail": "https://i.ibb.co/n78XMsm/educated.jpg",
+      "review": "An extraordinary memoir about the power of education and resilience. Tara Westover's journey from her survivalist upbringing to Cambridge University is both inspiring and heartbreaking.",
+      "totalPage": 352,
+      "rating": 4.8,
+      "category": "Biography",
+      "tags": ["inspiring", "autobiography"],
+      "publisher": "Random House",
+      "yearOfPublishing": 2018
+    },
+    {
+      "bookId": "EF789",
+      "bookName": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "thumbnail": "https://i.ibb.co/1zSZ9Y0/the-great.jpg",
+      "review": "A timeless classic that beautifully captures the essence of the Jazz Age. The characters are vivid, the prose is elegant, and the themes are still relevant today.",
+      "totalPage": 180,
+      "rating": 4.6,
+      "category": "Classic",
+      "tags": ["romance", "tragedy"],
+      "publisher": "Scribner",
+      "yearOfPublishing": 1925
+    },
+    {
+      "bookId": "GH012",
+      "bookName": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "thumbnail": "https://i.ibb.co/SvDk25B/the-kill-a.jpg",
+      "review": "A powerful and compassionate portrayal of justice and morality in the Deep South. Harper Lee's masterpiece continues to resonate with readers of all ages.",
+      "totalPage": 336,
+      "rating": 4.7,
+      "category": "Classic",
+      "tags": ["social justice", "coming of age"],
+      "publisher": "J.B. Lippincott & Co.",
+      "yearOfPublishing": 1960
+    },
+    {
+      "bookId": "IJ345",
+      "bookName": "1984",
+      "author": "George Orwell",
+      "thumbnail": "https://i.ibb.co/njFPrxK/a.jpg",
+      "review": "A chilling dystopian novel that remains eerily relevant in today's society. George Orwell's exploration of totalitarianism and surveillance is both thought-provoking and unsettling.",
+      "totalPage": 328,
+      "rating": 4.9,
+      "category": "Fiction",
+      "tags": ["dystopian", "political"],
+      "publisher": "Secker & Warburg",
+      "yearOfPublishing": 1949
+    },
+    {
+        "bookId": "KL678",
+        "bookName": "Steve Jobs",
+        "author": "Walter Isaacson",
+        "thumbnail": "https://i.ibb.co/3N0wwJ6/steve.jpg",
+        "review": "An insightful biography that delves deep into the life and mind of Steve Jobs, the visionary co-founder of Apple Inc. Isaacson's meticulous research and engaging narrative make this a must-read for anyone interested in technology and innovation.",
+        "totalPage": 656,
+        "rating": 4.6,
+        "category": "Biography",
+        "tags": ["technology", "innovation"],
+        "publisher": "Simon & Schuster",
+        "yearOfPublishing": 2011
+      }
+  ]
+  

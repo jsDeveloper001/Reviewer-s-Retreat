@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.font-WorkSans {
+    font-family: "Work Sans", sans-serif;
+}
+
+.primary-color {
+    color: #23BE0A
+}
+
+.primary-bg {
+    background-color: #23BE0A;
+}
+
+.secondary-button {
+    background-color: #59C6D2;
+}
+
+.section-bg {
+    background-color: #1313130D
+}
+
+.primary-border {
+    border: 1px solid #23BE0A;
+}
