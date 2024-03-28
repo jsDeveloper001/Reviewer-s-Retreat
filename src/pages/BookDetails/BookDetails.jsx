@@ -1,9 +1,21 @@
-import { useLoaderData, useParams } from 'react-router-dom';
+import { useLoaderData, useParams } from 'react-router-dom'
+
+import { Toaster } from 'react-hot-toast';
+import { UpdateDatabase } from '../../utils/localStorage';
 
 const BookDetails = () => {
     const { bookId } = useParams()
     const booksData = useLoaderData();
-    const existedBook = booksData.find(bookData => bookData.bookId == bookId)
+    const existedBook = booksData.find(bookData => bookData.bookId == bookId);
+
+    const addToReadlist = (bookId) => {
+        UpdateDatabase("ReadList", bookId)
+    }
+
+    const addToWishlist = (bookId) => {
+        UpdateDatabase("WishList", bookId)
+    }
+
     return (
         <div className='px-3'>
             <div className="mt-3 md:mt-12 grid grid-cols-1 md:grid-cols-[1fr,2fr]  gap-10">
@@ -43,14 +55,13 @@ const BookDetails = () => {
                         </tbody>
                     </table>
                     <div className='flex gap-4 mt-7 mb-5'>
-                        <button className='btn text-black text-base border-2 border-gray-400 font-bold px-7'>Read</button>
-                        <button className='btn secondary-button text-white text-base font-bold'>Wishlist</button>
+                        <button onClick={() => addToReadlist(existedBook.bookId)} className='btn text-black text-base border-2 border-gray-400 font-bold px-7'>Read</button>
+                        <button onClick={() => addToWishlist(existedBook.bookId)} className='btn secondary-button text-white text-base font-bold'>Wishlist</button>
                     </div>
                 </div>
-
+                <Toaster />
             </div>
         </div>
     );
-};
-
+}
 export default BookDetails;
