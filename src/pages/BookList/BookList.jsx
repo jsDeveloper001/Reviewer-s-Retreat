@@ -61,7 +61,7 @@ const BookList = () => {
             </div>
             <div className='flex justify-center my-14'>
                 <details className="dropdown">
-                    <summary className="px-10 m-1 btn primary-bg text-white hover:bg-slate-800">Short By</summary>
+                    <summary className="px-10 m-1 btn primary-bg text-white hover:bg-slate-800">Sort By</summary>
                     <ul className="w-full shadow menu dropdown-content z-[1] bg-base-100 rounded-box">
                         <li className='font-bold text-xs' onClick={() => handleDisplayReadListBooks("rating")}><a>Rating</a></li>
                         <li className='font-bold text-xs' onClick={() => handleDisplayReadListBooks("pages")}><a>Page Numbers</a></li>
