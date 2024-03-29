@@ -1,9 +1,10 @@
 import React from 'react';
 import { FaLocationDot } from "react-icons/fa6";
 import { IoDocumentTextOutline, IoPeopleSharp } from "react-icons/io5";
+import { Link } from 'react-router-dom';
 
 const StoredAllBook = ({ storedBook }) => {
-    const { thumbnail, bookName, author, tags, yearOfPublishing, publisher, totalPage, category, rating } = storedBook;
+    const { thumbnail, bookName, author, tags, yearOfPublishing, publisher, totalPage, category, rating, bookId } = storedBook;
     console.log(thumbnail)
     return (
         <div>
@@ -25,7 +26,9 @@ const StoredAllBook = ({ storedBook }) => {
                     <div className='flex flex-wrap gap-2 mt-6'>
                         <p className='px-3 py-1 rounded-full bg-blue-200 text-blue-600'>Category: {category}</p>
                         <p className='px-3 py-1 rounded-full bg-orange-200 text-orange-600'>Rating: {rating}</p>
-                        <button className='primary-bg px-3 py-1 rounded-full text-white hover:cursor-pointer'>View Details</button>
+                        <Link to={`/books/${bookId}`}>
+                            <button className='primary-bg px-3 py-1 rounded-full text-white hover:cursor-pointer'>View Details</button>
+                        </Link>
                     </div>
                 </div>
             </div>

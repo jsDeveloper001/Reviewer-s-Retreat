@@ -8,6 +8,7 @@
       "totalPage": 336,
       "rating": 4.5,
       "category": "Thriller",
+      "DataBg": "#FB0100",
       "tags": ["suspense", "psychological"],
       "publisher": "Celadon Books",
       "yearOfPublishing": 2019
@@ -21,6 +22,7 @@
       "totalPage": 352,
       "rating": 4.8,
       "category": "Biography",
+      "DataBg": "#00C29C",
       "tags": ["inspiring", "autobiography"],
       "publisher": "Random House",
       "yearOfPublishing": 2018
@@ -34,6 +36,7 @@
       "totalPage": 180,
       "rating": 4.6,
       "category": "Classic",
+      "DataBg": "#FC8042",
       "tags": ["romance", "tragedy"],
       "publisher": "Scribner",
       "yearOfPublishing": 1925
@@ -47,6 +50,7 @@
       "totalPage": 336,
       "rating": 4.7,
       "category": "Classic",
+      "DataBg": "#FC8042",
       "tags": ["social justice", "coming of age"],
       "publisher": "J.B. Lippincott & Co.",
       "yearOfPublishing": 1960
@@ -60,6 +64,7 @@
       "totalPage": 328,
       "rating": 4.9,
       "category": "Fiction",
+      "DataBg": "#0085F6",
       "tags": ["dystopian", "political"],
       "publisher": "Secker & Warburg",
       "yearOfPublishing": 1949
@@ -73,6 +78,7 @@
         "totalPage": 656,
         "rating": 4.6,
         "category": "Biography",
+        "DataBg": "#00C29C",
         "tags": ["technology", "innovation"],
         "publisher": "Simon & Schuster",
         "yearOfPublishing": 2011

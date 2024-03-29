@@ -20,7 +20,7 @@ const BookList = () => {
     useEffect(() => {
         const LoadReadIds = ReadDatabase("ReadList");
         const LoadWishIds = ReadDatabase("WishList");
-        if (LoadReadIds.length > 0) {
+        if (LoadReadIds.length > 0 || LoadWishIds.length > 0) {
             const ReadListBooks = BookDatas.filter(bookData => LoadReadIds.includes(bookData.bookId))
             const WishListBooks = BookDatas.filter(bookData => LoadWishIds.includes(bookData.bookId))
             setReadListedBooks(ReadListBooks);
